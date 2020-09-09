@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YELPCAMP</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            nav{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: rgb(62, 233, 233);
+            }
+            .logo{
+                color:white;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                align-items: center;
+                font-size: 30px;
+                font-weight: bold;
+                padding-bottom: 10px;
+            }
+            .nav-links{
+                display: flex;
+                text-transform: uppercase;
+                width:40%;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .nav-links a:hover{
+                color: teal;
+                transition: 0.4s;
+            }
+            .nav-links li{
+                list-style: none;
+            }
+            .nav-links a{
+                color:white;
+                text-decoration: none;
+                letter-spacing: 3px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <h3>CampGround</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/campgrounds">View CampGrounds</a></li>
+                <li><a href="/campgrounds/new">Add New</a></li>
+            </ul>
+        </nav>
+
+    
